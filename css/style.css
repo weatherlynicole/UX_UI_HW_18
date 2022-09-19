@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'Poppins', sans-serif;
+   background-color: black;
+}
+p
+{
+   font-weight: 300;
+   color: #B0B0B0;
+}
+h2
+{
+   font-weight: 700;
+}
+.banner
+{
+position: relative;
+width: 100%;
+min-height: 30vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+background-size: cover;
+}
+.banner .content
+{
+   max-width: 900px;
+   text-align: center;
+}
+.banner .content h2
+{
+   font-size: 2em;
+   color: white;
+}
+.banner .content p
+{
+   font-size: 1em;
+   color: #B0B0B0;
+}
+.about
+{
+   position: relative;
+   width: 100%;
+   min-height: 30vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   background-size: cover;
+
+}
+.about .content
+{
+   max-width: 910px;
+   text-align: left;
+}
+header
+{
+   position:fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 40px 100px;
+   z-index: 10000;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+header .logo
+{
+   color: white;
+   font-weight: 700;
+   font-size: 1em;
+   text-decoration: none;
+}
+header .navigation
+{
+   position: relative;
+   display: flex;
+}
+header .navigation li
+{
+   list-style: none;
+   margin-left: 30px;
+}
+header .navigation li a
+{
+   text-decoration: none;
+   color: #B0B0B0;
+   font-weight: 300;
+}
+.heroimg
+{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+.protoimg
+{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+footer
+{
+   position:flex;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   padding: 40px 100px;
+   z-index: 10000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+footer .chat
+{
+   color: white;
+   font-weight: 700;
+   font-size: 2em;
+   text-decoration: none;
+}
+.footer .chat
+{
+   max-width: 900px;
+   text-align: center;
+}
+.footer .chat h2
+{
+   font-size: 2em;
+   color: white;
+}
+.footer .chat li
+{
+   font-size: 1em;
+   color: #B0B0B0;
+}
+footer .navigation
+{
+   position: relative;
+   display: flex;
+}
+footer .navigation li
+{
+   list-style: none;
+   margin-left: 30px;
+}
+footer .navigation li a
+{
+   text-decoration: none;
+   color: #B0B0B0;
+   font-weight: 300;
+}
