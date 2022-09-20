@@ -119,6 +119,44 @@ header .navigation li a
    color: white;
 }
 
+.grid{
+   grid-gap: 6rem;
+   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+   position: relative;
+   width: 100%;
+   min-height: 30vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   background-size: cover;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-top: 105px;
+}
+
+.grid-item {
+   background-color: black;
+   border-radius: 0.4rem;
+   overflow: hidden;
+}
+
+.card-img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+@media only screen and (max-width: 60em) {
+   body{
+      padding: 3rem;
+   }
+   .grid {
+      grid-gap: 3rem;
+   }
+   
+}
+
 .budgie
 {
 position: relative;
