@@ -106,6 +106,18 @@ header .navigation li a
    align-items: center;
    justify-content: center;
 }
+.icons
+{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.card-content h2
+{
+   font-size: 2em;
+   color: white;
+}
 
 .budgie
 {
